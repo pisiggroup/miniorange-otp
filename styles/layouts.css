@@ -1,0 +1,21 @@
+.mo-plugin-container {
+    @apply w-full p-mo-8;
+}
+
+.mo-plugin-wrapper {
+    @apply w-full flex grow bg-white;
+}
+
+.mo-app-header {
+    @apply h-[60px] px-mo-4 bg-white;
+    border-bottom: 1px solid;
+    @apply border-slate-300;
+}
+
+.mo-tab-content {
+    @apply relative w-full;
+}
+
+.mo-content-wrapper {
+    @apply p-mo-8 flex gap-mo-6;
+}

@@ -1,0 +1,34 @@
+.mo-input-wrapper {
+    @apply relative w-full;
+}
+
+.mo-textarea,
+.mo-input[type='text'],
+.mo-input[type='password'],
+.mo-input[type='email'] {
+    -webkit-appearance: none;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid;
+    @apply px-mo-4 py-mo-3 border-slate-200 rounded-md duration-200 font-bold
+    disabled:cursor-not-allowed disabled:select-none;
+}
+
+.mo-textarea:focus,
+.mo-input[type='text']:focus,
+.mo-input[type='password']:focus,
+.mo-input[type='email']:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid black;
+    @apply border-indigo-500;
+}
+.mo-textarea {
+    font-family: monospace, sans-serif;
+    @apply font-normal resize-none;
+}
+
+.mo-input-label {
+    @apply absolute -top-mo-2.5 left-mo-3 bg-white px-mo-2 text-[12px] text-slate-500
+    group-focus-within:text-indigo-500 group-focus-within:font-bold;
+}

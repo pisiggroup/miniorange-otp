@@ -1,0 +1,14 @@
+.mo-table {
+    outline: none;
+    border: none;
+    font-size: 12px;
+    @apply w-full text-left leading-7;
+}
+
+.mo-trowhead {
+    @apply py-mo-4 px-mo-6 text-slate-900 whitespace-nowrap font-bold;
+}
+
+.mo-table-block {
+    @apply py-mo-4 px-mo-4 text-slate-800;
+}

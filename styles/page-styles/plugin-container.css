@@ -1,0 +1,23 @@
+.plugin-container {
+    font-family: Inter, sans-serif;
+    @apply w-full flex box-border;
+}
+
+.mo-content-wrapper {
+    @apply w-full flex p-mo-0;
+}
+
+.mo-side-nav {
+    @apply w-2/6 p-mo-4 flex flex-col gap-mo-1 bg-white;
+}
+
+.mo-side-nav-item {
+    @apply flex gap-mo-3 no-underline px-mo-4 py-mo-3 text-sm bg-white text-slate-900 duration-100
+	
+	/* Hover */
+	hover:text-slate-900 hover:bg-slate-100;
+}
+
+.mo_registration_divided_layout {
+    @apply w-full m-mo-0;
+}

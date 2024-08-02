@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Inter;
+    font-style: 400;
+    src: url('../fonts/Inter-Regular.woff2');
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 500;
+    src: url('../fonts/Inter-Medium.woff2');
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 600;
+    src: url('../fonts/Inter-SemiBold.woff2');
+}
+
+.mo-new-pricing-page * {
+    font-family: Inter, sans-serif;
+}
+
+.mo-new-pricing-page h1 {
+    @apply text-4xl leading-7;
+}
+
+.mo-new-pricing-page h2 {
+    @apply text-3xl leading-7;
+}
+
+.mo-new-pricing-page h3 {
+    @apply text-2xl leading-7;
+}
+
+.mo-new-pricing-page h4 {
+    @apply text-xl leading-7;
+}
+
+.mo-new-pricing-page h5 {
+    @apply text-lg leading-7;
+}
+
+.mo-new-pricing-page h6 {
+    @apply text-sm leading-7;
+}
+
+.mo-new-pricing-page p {
+    @apply text-sm leading-7;
+}
+
+/* Transaction Report Page */
+.mo-transaction-report-container * {
+    font-family: Inter, sans-serif !important;
+}
+
+.mo-transaction-report-container h1 {
+    @apply text-4xl leading-7;
+}
+
+.mo-transaction-report-container h2 {
+    @apply text-3xl leading-7;
+}
+
+.mo-transaction-report-container h3 {
+    @apply text-2xl leading-7;
+}
+
+.mo-transaction-report-container h4 {
+    @apply text-xl leading-7;
+}
+
+.mo-transaction-report-container h5 {
+    @apply text-lg leading-7;
+}
+
+.mo-transaction-report-container h6 {
+    @apply text-sm leading-7;
+}
+
+.mo-transaction-report-container p {
+    @apply text-sm leading-7;
+}

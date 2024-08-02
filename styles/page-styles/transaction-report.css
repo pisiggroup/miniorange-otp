@@ -1,0 +1,16 @@
+.mo-report-model {
+    @apply flex bg-white;
+}
+
+.mo-reporting-cotainer {
+    @apply p-mo-6 w-1/2 flex flex-col gap-mo-6;
+}
+
+.mo-select-auth-type {
+    border: 1px solid;
+    @apply border-slate-300 rounded-md;
+}
+
+.mo-reporting-table tr th {
+    @apply p-mo-4;
+}

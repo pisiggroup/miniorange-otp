@@ -1,0 +1,7 @@
+.mo-step {
+    @apply w-[30px] h-[30px] min-w-[30px] min-h-[30px] flex items-center justify-center rounded-full bg-slate-900 text-white;
+}
+
+.mo-step.inverted {
+    @apply bg-white text-slate-900;
+}

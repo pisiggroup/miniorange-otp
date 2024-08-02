@@ -1,0 +1,40 @@
+/* Customize the label (the container) */
+.mo-checkbox-container {
+    @apply block relative cursor-pointer select-none;
+}
+
+/* Create a custom checkbox */
+.mo-checkmark {
+    @apply absolute top-mo-0 left-mo-0 h-[20px] w-[20px] bg-slate-200 rounded-sm duration-200;
+}
+
+/* On mouse-over, add a grey background color */
+.mo-checkbox-container:hover input ~ .mo-checkmark {
+    @apply bg-slate-200;
+}
+
+/* When the checkbox is checked, add a blue background */
+.mo-checkbox-container input:checked ~ .mo-checkmark {
+    @apply bg-indigo-500;
+}
+
+/* Create the mo-checkmark/indicator (hidden when not checked) */
+.mo-checkmark:after {
+    content: '';
+    @apply absolute hidden;
+}
+
+/* Show the mo-checkmark when checked */
+.mo-checkbox-container input:checked ~ .mo-checkmark:after {
+    @apply block;
+}
+
+/* Style the mo-checkmark/indicator */
+.mo-checkbox-container .mo-checkmark:after {
+    @apply top-[3px] left-[7px] w-[6px] h-[10px];
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

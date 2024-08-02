@@ -1,0 +1,14 @@
+/* Default */
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* 
+	Preflight CSS is used to lift the browser's default styles.
+*/
+@import './preflight.css';
+@import './layouts.css';
+@import './typography.css';
+@import './components/button.css';
+@import './components/components.css';
+@import './elements/elements.css';
+@import './page-styles/page-styles.css';

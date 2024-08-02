@@ -1,0 +1,33 @@
+.mo-tab-container {
+    border-bottom: 1px solid;
+    @apply bg-white w-full flex items-center justify-center py-mo-4 border-slate-300;
+}
+
+.mo-tabs-wrapper {
+    @apply flex p-mo-2 ml-mo-4 bg-slate-100 rounded-full;
+}
+
+.mo-tab-item {
+    @apply text-sm flex items-center justify-center px-mo-4 py-mo-2 rounded-full no-underline text-black bg-transparent cursor-pointer
+	focus:border-0 focus:outline-0;
+}
+
+.mo-tab-item.active {
+    @apply bg-white shadow-md font-bold;
+}
+
+
+/*Popup Design Settings Custom CSS*/
+.tab-item.active {
+    background: #36494f;
+    color: white;
+}
+
+.tab-content {
+    width: 100%;
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}

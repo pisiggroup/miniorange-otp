@@ -1,0 +1,74 @@
+.mo-opt-content {
+    min-width: auto;
+}
+.mo-pricing-card {
+    border-right: 1px solid;
+    @apply p-mo-6 border-slate-300 flex flex-col;
+}
+
+.feature-snippet {
+    @apply m-mo-0 py-mo-2 flex items-center gap-mo-4;
+}
+
+.mo-pricing-card.premium {
+    @apply bg-slate-900 rounded-xl text-white;
+}
+
+.mo-pricing-snippet-grid {
+    @apply bg-slate-50 p-mo-6;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+}
+
+.mo-pricing-table-snippet {
+    border: 1px solid;
+    @apply w-1/2 bg-white border-slate-200 rounded-sm;
+}
+
+.mo-sms-email-pricing {
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(58px, 1fr));
+    @apply border-slate-300 rounded-sm mt-mo-3;
+}
+
+.mo-sms-email-pricing tr td {
+    @apply p-mo-3;
+}
+
+.mo-sms-email-pricing tr td:nth-child(even) {
+    @apply bg-slate-100;
+}
+
+.mo-pricing-table-snippet tr td:nth-child(even) {
+    @apply bg-slate-50;
+}
+
+.mo-pricing-table-snippet tr td {
+    @apply px-mo-3 py-mo-2 bg-white;
+}
+
+.mo-table {
+    border-collapse: collapse;
+}
+
+.mo-table tr:nth-child(even) {
+    @apply bg-slate-50;
+}
+
+.custom-link {
+    border-bottom: 1px solid;
+    @apply no-underline text-black font-bold pb-mo-1 border-slate-900
+ hover:text-indigo-500 hover:border-indigo-500;
+}
+
+.gateway-plan-section {
+    @apply p-mo-8 flex items-center gap-mo-4 bg-[#ffece3];
+    border-bottom: 1px solid;
+    @apply border-slate-300;
+}
+
+.mo-reporting-table thead tr th {
+    border-top: 1px solid;
+    @apply bg-slate-100 border-slate-300;
+}

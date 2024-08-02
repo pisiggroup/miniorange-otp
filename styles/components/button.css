@@ -1,0 +1,29 @@
+/* 
+    Button Styles 
+*/
+.mo-button {
+    @apply w-full border-none no-underline flex flex-row items-center justify-center gap-mo-3 h-[40px] px-mo-6 rounded-md font-bold text-center text-[14px] cursor-pointer
+	disabled:bg-indigo-200
+  	sm:w-auto
+    hover:no-underline;
+}
+
+.mo-button.primary {
+    @apply bg-indigo-500 hover:bg-indigo-600 text-white
+    disabled:bg-indigo-200 disabled:cursor-not-allowed;
+}
+
+.mo-button.secondary {
+    border: 1px solid rgb(203 213 225);
+    @apply text-black bg-white
+	hover:bg-slate-100;
+}
+
+.mo-button.inverted {
+    @apply border text-white bg-black
+	hover:bg-slate-900;
+}
+
+.mo-button.alert {
+    @apply border text-white bg-red-500;
+}

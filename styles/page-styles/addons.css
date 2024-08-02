@@ -1,0 +1,8 @@
+.mo-addon-section-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+    @apply gap-mo-4 p-mo-4 bg-slate-100;
+}
+.mo-addon-card {
+    @apply p-mo-5 bg-white rounded-sm shadow-md flex flex-col;
+}
